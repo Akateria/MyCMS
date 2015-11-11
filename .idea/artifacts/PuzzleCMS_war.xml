@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="PuzzleCMS:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="Puzzle.war">
+      <element id="artifact" artifact-name="PuzzleCMS:war exploded" />
+    </root>
+  </artifact>
+</component>

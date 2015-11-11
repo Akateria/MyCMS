@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/puzzletest3</property>
+        <!--<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/testpuzzle4</property>-->
+        <property name="connection.pool_size">100</property>
+        <property name="show_sql">true</property>
+        <!--?autoReconnect=true&user=root&password=tj$74-->
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">Wo1pPlFKww</property>
+        <!--<property name="hibernate.connection.password">rootpass</property>-->
+        <property name="hbm2ddl.auto">update</property>
+        <property name="current_session_context_class">thread</property>
+<!--         mapping resources = "book.hbm.xml"/ -->
+        <mapping class="hibernate.tables.User" />
+        <mapping class="hibernate.tables.Tag" />
+        <mapping class="hibernate.tables.Content" />
+        <mapping class="hibernate.tables.ContentTagLinker"/>
+        <mapping class="hibernate.tables.FrontPage" ></mapping>
+        <mapping class="hibernate.tables.ContentPositionHistory" ></mapping>
+    </session-factory>
+</hibernate-configuration>

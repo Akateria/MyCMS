@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Maven: javax:javaee-web-api:6.0">
+    <archive path="C:/Users/Aksi/.m2/repository/javax/javaee-web-api/6.0/javaee-web-api-6.0.jar" />
+  </library>
+  <library name="Maven: javax.servlet:servlet-api:3.0-alpha-1">
+    <archive path="C:/Users/Aksi/.m2/repository/javax/servlet/servlet-api/3.0-alpha-1/servlet-api-3.0-alpha-1.jar" />
+  </library>
+  <library name="Maven: javaee:javaee-api:5">
+    <archive path="C:/Users/Aksi/.m2/repository/javaee/javaee-api/5/javaee-api-5.jar" />
+  </library>
+</eclipse-userlibraries>
+
